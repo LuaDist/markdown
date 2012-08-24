@@ -7,6 +7,7 @@ desc = "A pure-lua implementation of the Markdown text-to-html markup system."
 author = "Niklas Frykholm"
 maintainer = "Peter Kapec"
 url = "http://luaforge.net/projects/markdown/"
+license = "MIT"
 
 depends = {
 	"lua ~> 5.1"
