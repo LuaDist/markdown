@@ -1,0 +1,20 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Niklas Frykholm"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "A pure-lua implementation of the Markdown text-to-html markup system."
+version = "0.32"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/markdown.lua]],
+}
+,
+}
+
+url = "http://luaforge.net/projects/markdown/"
+name = "markdown"
+license = "MIT"
